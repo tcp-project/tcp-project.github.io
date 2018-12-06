@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>MATH 5251 Final Project</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
   </head>
 
@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">MATH 5251 Final Project</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -36,11 +36,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">TCP/IP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#projects">Connection</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#transmission">Transmission</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#error-detection">Error Detection</a>
+                </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
             </li>
@@ -53,9 +59,8 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+          <h1 class="mx-auto my-0 text-uppercase">Applications to the Internet</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Nicklas Rouvinen and Victor Nguyen</h2>
         </div>
       </div>
     </header>
@@ -65,43 +70,54 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-            <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+            <h2 class="text-white mb-4">What is Internet Protocol (IP)?</h2>
+            <p class="text-white mb-4">
+                Internet protocol (IP) is the principle communication protocol used to relay datagrams across network boundaries. 
+                This protocol utilizes a routing function that allows inter-networking (connecting different networks to build a large, 
+                global network) which is what essentially establishes the Internet. IP works by delivering packets from source hosts to 
+                destination hosts based on the IP addresses found in the packet headers (a unique address that computing devices use to 
+                identity itself).
+            </p>
+            <h2 class="text-white mb-4">What is Transmission Control Protocol (TCP)?</h2>
+            <p class="text-white mb-4">
+                Transmission Control Protocol (TCP) is one the main protocols of the Internet protocol suite. TCP was originally implemented 
+                to complement the Internet Protocl (IP) and was commonly referred to as TCP/IP. The primary application of the TCP 
+                communication protocol is to provide the most reliable and error-checked bi-directional stream of data between hosts on an 
+                IP network. Some examples where TCP communication can be found include email, the world wide web, file transfer, etc... 
+            </p>
           </div>
         </div>
-        <img src="img/ipad.png" class="img-fluid" alt="">
       </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
       <div class="container">
-
-        <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+        <!--
+          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7">
+              <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
             </div>
-          </div>
-        </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Shoreline</h4>
+                <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+              </div>
+            </div>
+          </div> 
+        -->
 
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            <img class="img-fluid2" src="img/handshake1.png" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <h4 class="text-white">Connection Inititation</h4>
+                  <p class="mb-0 text-white-50">TCP uses a process known as a three-way handshake to establish a connection between the client and the server. This process works by the server listening at a specific port (i.e. port: 9600) and opens up the port for connections. A client may then initiate an active open at the port and proceed the three-way handshake to establish a connection with the server.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>
@@ -112,14 +128,14 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+            <img class="img-fluid" src="img/handshake2.png" alt="">
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Connection Termination</h4>
+                  <p class="mb-0 text-white-50">When ending the connection between the sender and receiver a four-way handshake method is used instead of the three-way handshake. When one endpoint wants to stop its half of the data transmission it transmits a FIN packet which the other end acknowledges with an Ack. The typical connection termination involves a pair of FIN and Ack packets from both ends. It is also possible for connections to be "half-open" in which one side has terminated their connection but can continue to either read or send data.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
                 </div>
               </div>
@@ -130,24 +146,100 @@
       </div>
     </section>
 
-    <!-- Signup Section -->
-    <section id="signup" class="signup-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-            <form class="form-inline d-flex">
-              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-            </form>
-
+    
+    <section id="transmission" class="about-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white mb-4">Reliable Transmission</h2>
+              <p class="text-white mb-4">
+                  TCP uses sequence numbers to identify each byte of data that is sent from the client to the server by adding a unique 
+                  sequence number to the TCP header containing the data. The sequence numbers associated with each byte of data sent are 
+                  used by the receiver/destination to order the bytes of data received so that the data can be reconstructed in perfect 
+                  order regardless of any possible packet loss or packet reordering that occurs during transmission. Acknowledgment numbers 
+                  (Acks) are coupled with the sequence numbers so the receiver of the data can tell the sender whether the data/packet has 
+                  been received. There are two main techniques in TCP utilizing these sequence numbers and Acks known as DupAcks and RTO.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section id="projects" class="projects-section bg-light">
+          <div class="container">
+            <!--
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7">
+                  <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                  <div class="featured-text text-center text-lg-left">
+                    <h4>Shoreline</h4>
+                    <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                  </div>
+                </div>
+              </div> 
+            -->
+    
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                <img class="img-fluid2" src="img/demo-image-01.jpg" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">Dupack-based re-transmission (DupAcks)</h4>
+                      <p class="mb-0 text-white-50">Lets say a single packet (packet 100) is lost in the data transmission stream. Then, the receiver can not acknowledge packets above 100 as it sends cumulative Acks back to the sender. This causes the receiver to acknowledge packet 99 again on the receipt of the next packet in the stream. This duplicate acknowledgment is used to signal a packet loss which prompts the sender to re-transmit the unacknowledged packet.</p>
+                      <hr class="d-none d-lg-block mb-0 ml-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid2" src="img/ooba.png" alt="">
+                </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">Timeout-based retransmission (RTO)</h4>
+                      <p class="mb-0 text-white-50">When a packet is sent by the sender, the sender sets a time limit (RTO) that is an estimate of how long it should take for the receiver to send back an Ack. If the time limit expires during data transmission the sender will re-transmit the packet. In some cases if the timer has gone after a packet has been re-transmitted the sender will re-transmit the packet with a timer twice the previous value (up to a threshold timer limit).</p>
+                      <hr class="d-none d-lg-block mb-0 mr-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+
+        <section id="error-detection" class="about-section text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-white mb-4">Error Detection - Checksums</h2>
+                  <p class="text-white mb-4">
+                      Checksums in TCP work by processing a word (16 bytes) at a time and taking the sum of all words using one's complement arithmetic. 
+                      The sum is then bitwise complemented and the checksum is inserted into the data header. This checksum is weak by modern 
+                      standards as a error-correction method; however, it is still highly likely to identify a broken packet due to a checksum 
+                      mismatch between the reciever and sender. 
+                  </p>
+                  <p class="text-white mb-4">Lets say an IP header 0x4500003044224000800600008c7c19acae241e2b is received.
+                      First, the one's complement sum is calculated by dividing the header into 16 bit words and summing them up.</p>
+                  <p class="text-white mb-4"></p>
+                  <p class="text-white mb-4"></p>                                      
+                </div>
+              </div>
+            </div>
+          </section>
+
 
     <!-- Contact Section -->
     <section class="contact-section bg-black">
