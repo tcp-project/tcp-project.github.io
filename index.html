@@ -1,381 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Math 5251</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Math 5251</p>
-  </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
+  <head>
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global">
-            <p>Math 5251</p>
-          </a>
-          <button class="header--cta cta">Hire Us</button>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>TCP/IP</span></li>
-            <li><span>Connection</span></li>
-            <li><span>Data Transmission</span></li>
-            <li><span>Error Correction</span></li>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MATH 5251 Final Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">MATH 5251 Final Project</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">TCP/IP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Connection</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#transmission">Transmission</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#error-detection">Error Detection</a>
+                </li>
           </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Applications<br>to the<br>internet</h1>
-                <button class="cta">Hire Us
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <div class="intro--options">
-                <a href="#0">
-
-                </a>
-                <a href="#0">
-                  <h3>Math 5251 Final Project</h3>
-                  <p>By: Victor Nguyen and Nick Rouvinen</p>
-                </a>
-                <a href="#0">
-                  
-                  </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="l-section section">
-            <div class = "about">
-              Internet protocol (IP) is the principle communication protocol used to relay datagrams across network boundaries. 
-              This protocol utilizes a routing function that allows inter-networking (connecting different networks to build a large, 
-              global network) which is what essentially establishes the Internet. 
-              IP works by delivering packets from source hosts to destination hosts based on the IP addresses found in the packet headers 
-              (a unique address that computing devices use to identity itself).
-              Transmission Control Protocol (TCP) is one the main protocols of the Internet protocol suite. TCP was originally implemented to 
-              complement the Internet Protocl (IP) and was commonly referred to as TCP/IP. The primary application of the TCP communication protocol 
-              is to provide the most reliable and error-checked bi-directional stream of data between hosts on an IP network. Some examples where TCP 
-              communication can be found include email, the world wide web, file transfer, etc... 
-            </div>
-          </li>
-
-          <li class="l-section section">
-            <div class = "about">
-              Reed-Solomon codes are one of the most commonly used block-based error correction codes in wireless systems to detect 
-              and correct codes.  ''It allows correction of errors until their number does not exceed a half of the added 
-              redundancy code.''.\cite{Dzmitry}.  This defines the relationship between the amount of bandwidth used to 
-              improve the level of error protection.  Due to TCP being a reliable transport layer protocol, it is important
-               for TCP to be able to accurately correct errors without having to have the sender re-transmit the packet. 
-                By incorporating forward error correction techniques to TCP, the developers are able to reduce the amount of 
-                congestion implied onto routers and links during the case of retransmission.
-            </div>
-          </li>
-
-          <li class="l-section section">
-            <div class = "about">
-              Reed-Solomon codes are one of the most commonly used block-based error correction codes in wireless systems to detect 
-              and correct codes.  ''It allows correction of errors until their number does not exceed a half of the added 
-              redundancy code.''.\cite{Dzmitry}.  This defines the relationship between the amount of bandwidth used to 
-              improve the level of error protection.  Due to TCP being a reliable transport layer protocol, it is important
-               for TCP to be able to accurately correct errors without having to have the sender re-transmit the packet. 
-                By incorporating forward error correction techniques to TCP, the developers are able to reduce the amount of 
-                congestion implied onto routers and links during the case of retransmission.
-            </div>
-            <div class = "about">
-              fuck my ballsacks
-            </div>
-          </li>
-
-          <li class="l-section section">
-            <div class = "about">
-              Reed-Solomon codes are one of the most commonly used block-based error correction codes in wireless systems to detect 
-              and correct codes.  ''It allows correction of errors until their number does not exceed a half of the added 
-              redundancy code.''.\cite{Dzmitry}.  This defines the relationship between the amount of bandwidth used to 
-              improve the level of error protection.  Due to TCP being a reliable transport layer protocol, it is important
-               for TCP to be able to accurately correct errors without having to have the sender re-transmit the packet. 
-                By incorporating forward error correction techniques to TCP, the developers are able to reduce the amount of 
-                congestion implied onto routers and links during the case of retransmission.
-            </div>
-          </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <li class="l-section section">
-            <div class="work">
-              <h2>Selected work</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
-                      </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class = "about">
-              Reed-Solomon codes are one of the most commonly used block-based error correction codes in wireless systems to detect 
-              and correct codes.  ''It allows correction of errors until their number does not exceed a half of the added 
-              redundancy code.''.\cite{Dzmitry}.  This defines the relationship between the amount of bandwidth used to 
-              improve the level of error protection.  Due to TCP being a reliable transport layer protocol, it is important
-               for TCP to be able to accurately correct errors without having to have the sender re-transmit the packet. 
-                By incorporating forward error correction techniques to TCP, the developers are able to reduce the amount of 
-                congestion implied onto routers and links during the case of retransmission.
-            </div>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
-                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                    <a href="tel:+148126287560">+48 12 628 75 60</a>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="#0">Bēhance</a></li>
-                    <li><a href="#0">dribbble</a></li>
-                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="hire">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      App Design
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Graphic Design
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Motion Design
-                    </label>
-                  </span>
-                  <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      UX Design
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Webdesign
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Marketing
-                    </label>
-                  </span>
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                <input type="submit" value="Send Request">
-              </form>
-            </div>
-          </li>
-        </ul>
+        </div>
       </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>TCP/IP</li>
-    <li>Connection</li>
-    <li>Data Transmission</li>
-    <li>Error Correction</li>
-  </ul>
-</div>
+    </nav>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
-</body>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Applications to the Internet</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Nicklas Rouvinen and Victor Nguyen</h2>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">What is Internet Protocol (IP)?</h2>
+            <p class="text-white mb-4">
+                Internet protocol (IP) is the principle communication protocol used to relay datagrams across network boundaries. 
+                This protocol utilizes a routing function that allows inter-networking (connecting different networks to build a large, 
+                global network) which is what essentially establishes the Internet. IP works by delivering packets from source hosts to 
+                destination hosts based on the IP addresses found in the packet headers (a unique address that computing devices use to 
+                identity itself).
+            </p>
+            <h2 class="text-white mb-4">What is Transmission Control Protocol (TCP)?</h2>
+            <p class="text-white mb-4">
+                Transmission Control Protocol (TCP) is one the main protocols of the Internet protocol suite. TCP was originally implemented 
+                to complement the Internet Protocl (IP) and was commonly referred to as TCP/IP. The primary application of the TCP 
+                communication protocol is to provide the most reliable and error-checked bi-directional stream of data between hosts on an 
+                IP network. Some examples where TCP communication can be found include email, the world wide web, file transfer, etc... 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+        <!--
+          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7">
+              <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Shoreline</h4>
+                <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+              </div>
+            </div>
+          </div> 
+        -->
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid2" src="img/handshake1.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Connection Inititation</h4>
+                  <p class="mb-0 text-white-50">TCP uses a process known as a three-way handshake to establish a connection between the client and the server. This process works by the server listening at a specific port (i.e. port: 9600) and opens up the port for connections. A client may then initiate an active open at the port and proceed the three-way handshake to establish a connection with the server.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/handshake2.png" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Connection Termination</h4>
+                  <p class="mb-0 text-white-50">When ending the connection between the sender and receiver a four-way handshake method is used instead of the three-way handshake. When one endpoint wants to stop its half of the data transmission it transmits a FIN packet which the other end acknowledges with an Ack. The typical connection termination involves a pair of FIN and Ack packets from both ends. It is also possible for connections to be "half-open" in which one side has terminated their connection but can continue to either read or send data.</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section id="transmission" class="about-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white mb-4">Reliable Transmission</h2>
+              <p class="text-white mb-4">
+                  TCP uses sequence numbers to identify each byte of data that is sent from the client to the server by adding a unique 
+                  sequence number to the TCP header containing the data. The sequence numbers associated with each byte of data sent are 
+                  used by the receiver/destination to order the bytes of data received so that the data can be reconstructed in perfect 
+                  order regardless of any possible packet loss or packet reordering that occurs during transmission. Acknowledgment numbers 
+                  (Acks) are coupled with the sequence numbers so the receiver of the data can tell the sender whether the data/packet has 
+                  been received. There are two main techniques in TCP utilizing these sequence numbers and Acks known as DupAcks and RTO.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section bg-light">
+          <div class="container">
+            <!--
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7">
+                  <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                  <div class="featured-text text-center text-lg-left">
+                    <h4>Shoreline</h4>
+                    <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                  </div>
+                </div>
+              </div> 
+            -->
+    
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                <img class="img-fluid3" src="img/reeeeeeeeee.jpg" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">Dupack-based re-transmission (DupAcks)</h4>
+                      <p class="mb-0 text-white-50">Lets say a single packet (packet 100) is lost in the data transmission stream. Then, the receiver can not acknowledge packets above 100 as it sends cumulative Acks back to the sender. This causes the receiver to acknowledge packet 99 again on the receipt of the next packet in the stream. This duplicate acknowledgment is used to signal a packet loss which prompts the sender to re-transmit the unacknowledged packet.</p>
+                      <hr class="d-none d-lg-block mb-0 ml-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid2" src="img/ooba.png" alt="">
+                </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">Timeout-based retransmission (RTO)</h4>
+                      <p class="mb-0 text-white-50">When a packet is sent by the sender, the sender sets a time limit (RTO) that is an estimate of how long it should take for the receiver to send back an Ack. If the time limit expires during data transmission the sender will re-transmit the packet. In some cases if the timer has gone after a packet has been re-transmitted the sender will re-transmit the packet with a timer twice the previous value (up to a threshold timer limit). This timer value is typically set by the equation seen to the right. *Note: there is no requirment for variable G in computing RTT measurements</p>
+                      <hr class="d-none d-lg-block mb-0 mr-0">
+                    </div>
+                  </div>
+                </div>1
+              </div>
+            </div>
+    
+          </div>
+        </section>
+
+        <section id="error-detection" class="about-section text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-white mb-4">Error Detection - Checksums</h2>
+                  <p class="text-white mb-4">
+                      Checksums in TCP work by processing a word (16 bytes) at a time and taking the sum of all words using one's complement arithmetic. 
+                      The sum is then bitwise complemented and the checksum is inserted into the data header. This checksum is weak by modern 
+                      standards as a error-correction method; however, it is still highly likely to identify a broken packet due to a checksum 
+                      mismatch between the reciever and sender. 
+                  </p>
+                  <p class="text-white mb-4">Lets say an IP header 0x4500003044224000800600008c7c19acae241e2b is received.
+                      First, the one's complement sum is calculated by dividing the header into 16 bit words and summing them up. <br> 
+                      <br>
+                      4500 + 0030 + 4422 + 4000 + 8006 + 0000 + 8c7c + 19ac + ae24 + 1e2b = 2BBCF <br>
+                      <br>
+                      Turn into 16 bits by adding the carry to the result. <br>
+                      <br>
+                      2 + BBCF = BBD1 <br>
+                      <br>
+                      Final step is to bitwise complement the sum. <br>
+                      <br>
+                      BBD1 = 1011101111010001 <br>
+                      <br>
+                      one’s complement(1011101111010001) = 0100010000101110 = 442E <br> 
+                      <br>
+                      Checksum validation between the sender and receiver is done using the same method. <br>
+                      <br>
+                      2BBCF + 442E = 2FFFD <br> 
+                      <br>
+                      2 + FFFD = FFFF <br>
+                      <br>
+                      Taking the one's complement of FFFF = 0 indicates that there are not discrepancies between sender and receiver. <br>                      
+                  
+                    </p>                                      
+                </div>
+              </div>
+            </div>
+          </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
 </html>
